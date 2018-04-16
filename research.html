@@ -16,6 +16,7 @@
 <link href="http://pong.tamu.edu/~vrx/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
+
 <body>
 <!-- begin #container -->
 <div id="container">
@@ -57,15 +58,14 @@
     </div>
     <div class="maincontent">
           <h3><font color="#3ac96b">Researh</font></h3>
-            <p>
+            <!-- <p> -->
     <!-- end #header -->
     <!-- begin #contentBody -->
-    <div id="contentBody">
+    <div id="contentBody" width="100%">
         <div class="maincontent">
-            <h2>Research</h2>
-            <p>
+            <!-- <h2>Research</h2> -->
+            <!-- <p> -->
                 <!-- Summary of what I do for research -->
-
                 Oceanographer and benthos ecologist, now working in a PhD in physical oceanography using <a href="http://www.myroms.org"> ROMS</a> to study bottom hypoxia and its effects on benthic fauna.<br><br>
                 Interest include: Coastal modeling, ROMS, coastal and shelf ecology, python tools for oceanography.<br><br>
 
@@ -73,24 +73,47 @@
 
            </p>
         </div>
-        <div class="maincontent">
-            <a name="Extent"><h3>Hypoxic extent</h3></a>
-            <p>
-                <img src="images/long_series.png" class="picFloat" width="100%">
-                <img src="images/annual.png" class="picFloat" width="100%">
-                Models allow a more dynamic overview of the development of the hypoxic region in the Texas-Louisiana Shelf. While annual <a href="https://gulfhypoxia.net/research/shelfwide-cruises/">cruise observations</a> capture a static vision of what is expected to be the largest seasonal extent each year (late July or early August), models allow to see the development of the region. Although model estimations are not completely accurate, they still give an estimation driven by a realistic hydrodynamic settings. 20 years of model output capture a wide range of interannual variability.
 
+        <div class="links">
+          <h3>Projects</h3>
+          <ul>
+              <li><a href="#Extent">Hypoxic extent</a></li>
+              <li><a href="#Fluxes">Oxygen budget</a></li>
+              <li><a href="#Properties">Shelf properties</a></li>
 
+          </ul>
         </div>
+
+        <div class="maincontent" >
+            <a name="Extent"><h3>Hypoxic extent</h3></a>
+            <!-- <p> -->
+                <img src="images/long_series.png" class="picFloat" width="70%">
+                <img src="images/annual.png" class="picFloat" width="70%">
+                <p>
+                Models allow a more dynamic overview of the development of the hypoxic region in the Texas-Louisiana Shelf. While annual <a href="https://gulfhypoxia.net/research/shelfwide-cruises/">cruise observations</a> capture a static vision of what is expected to be the largest seasonal extent every year (late July or early August), models allow to see the development of the region. Although model simulations are not completely accurate, they still give an estimation driven by realistic hydrodynamic settings. 20 years of model output capture a wide range of interannual variability.
+            </p>
+        </div>
+
         <div class="maincontent">
             <a name="Fluxes"/><h3>Oxygen budget</h3></a>
-            <p>
-                <img src="images/hourly.png" class="picFloat" width="40%">
-                A budget analysis reveals different rates of contribution of the horizontal and vertical advective fluxes, and the vertical diffusive flux in the movement and formation of bottom water hypoxia. Relative contributions of these fluxes to the balance change at different spatial scales. While horizontal advective fluxes are responsible for the high-frequency variability seen in the oscillation of oxygen-depleted water masses, vertical diffusive fluxes, and bottom respiration dominate over longer spatial and temporal scales. Understanding the mechanisms of the different scales of variability simulated in the model can aid in improving observation strategies to evaluate the seasonal extent of hypoxia on the Texas-Louisiana shelf more accurately, as well as evaluate the ecological implications on regions subject to different oscillatory modes.</a>.
+            <!-- <p> -->
+                <img src="images/hourly.png" class="picFloat" width="70%">
+                <p>
+                A budget analysis reveals different rates of contribution of the horizontal and vertical advective fluxes, and the vertical diffusive flux in the movement and formation of bottom water hypoxia. Relative contributions of these fluxes to the balance change at different spatial scales. While horizontal advective fluxes are responsible for the high-frequency variability seen in the oscillation of oxygen-depleted water masses, vertical diffusive fluxes, and bottom respiration dominate over longer spatial and temporal scales. Understanding the mechanisms of the different scales of variability simulated in the model can aid in improving observation strategies to evaluate the seasonal extent of hypoxia on the Texas-Louisiana shelf more accurately, as well as evaluate the ecological implications on a region subject to different oscillatory modes.</a>.
             </p>
-
-
         </div>
+
+      <div class="maincontent">
+          <a name="Properties"/><h3>Shelf properties</h3></a>
+          <!-- <p> -->
+              <img src="images/1997_hist_ox.png" class="picFloat" width="70%">
+              <img src="images/1997_hist_sg.png" class="picFloat" width="70%">
+              <img src="images/1997_hist_vt.png" class="picFloat" width="70%">
+              <p>
+              The distribution of properties in the shelf (like vertical salinity gradient and surface vorticity) can explain some of the variability in the bottom water oxygen concentration. Vorticity values distanced from zero indicate the precense of instabilities in the shelf, wich are originated from the river plume fronts</a>.
+          </p>
+      </div>
+
 
   </div>
   <!-- end #contentBody -->
