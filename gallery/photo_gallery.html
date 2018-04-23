@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body  {
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	background: url(images/siteBackground.png) repeat;
+	margin: 0;
+	padding: 0;
+	color: #707070;
+}
+
+#header {
+}
+#header h1 {
+	float:left;
+	margin:0px;
+	padding:10px 0px 0px 10px;
+}
+#header h1 a {
+	color: #333333;
+	font-size:48px;
+	text-decoration:none;
+}
+#header h1 span {
+	color: #3ac96b;
+}
+#header h1 a:hover {
+	color:#333333;
+	font-size:48px;
+	text-decoration:none;
+}
+#header .submenu {
+	float:right;
+}
+#header .submenu ul {
+	padding: 30px 15px 0 0;
+	margin: 0;
+}
+#header .submenu li {
+	list-style:none;
+	float:left;
+}
+#header .submenu li a {
+	font-size:16px;
+	text-transform: none;
+	border:none;
+	padding:0 0 0 20px;
+	color:#707070;
+	text-decoration:none;
+}
+#header .submenu li a:hover {
+	color:#d01818;
+	background:none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
+<body>
+
+<!-- Header -->
+<div id="header">
+  <h1><a href="../index.html"><span>V</span>eronica <span>R</span>uiz <span>X</span>omchuk</a></h1>
+    <div class="submenu">
+        <ul>
+            <li><a href="http://pong.tamu.edu/~vrx/index.html">About</a></li>
+            <li><a href="http://pong.tamu.edu/~vrx/research.html">Research</a></li>
+            <li><a href="http://pong.tamu.edu/~vrx/teaching.html">Teaching</a></li>
+            <li><a href="http://pong.tamu.edu/~vrx/gallery.html">Gallery</a></li>
+            <li><a href="http://pong.tamu.edu/~vrx/cv.pdf">CV</a></li>
+            <li><a href="http://pong.tamu.edu/">PONG</a></li>
+        </ul>
+    </div>
+    <div><img src="http://pong.tamu.edu/~vrx/images/header.jpg" width=100% /></div>
+</div>
+
+
+  <div class="row">
+    <div class="column">
+      <img src="http://pong.tamu.edu/~vrx/images/IMG_1304.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <video src="http://pong.tamu.edu/~vrx/images/D250D0EC-AD5F-4C23-B30C-83D30992690E.m4v" alt="Side deck view" autoplay onerror="this.onerror=null; this.src='http://pong.tamu.edu/~vrx/images/fish.png';" style="width:100%">
+      <img src="http://pong.tamu.edu/~vrx/images/IMG_E1475.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="http://pong.tamu.edu/~vrx/images/IMG_1290.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
